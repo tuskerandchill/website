@@ -8,7 +8,9 @@ h1 {
     color : yellow;
     font-family: 'Times New Roman', Times, serifssssssss;
 }
-
+h3 {
+    color: white
+}
 .content {
     max-width: 500px;
     margin: auto;
