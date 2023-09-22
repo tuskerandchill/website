@@ -1,0 +1,40 @@
+body{
+    background-color: black;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+}
+h1{
+    color : yellow;
+    font-family: 'Times New Roman', Times, serifssssssss;
+}
+
+.content{
+    max-width: 500px;
+    margin: auto;
+}
+.slider{
+    height: 250px;
+    margin: auto;
+    position: relative;
+    width: 90%;
+    display: grid;
+    place-items: center;
+    /**overflow: hidden;**/
+}
+.slide-track{
+    display: flex;
+    width: calc(250px * 6);
+}
+.slide{
+    height: 200px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+img{
+    width: 100%;
+}
+
+/** Gradient Shadows**/
