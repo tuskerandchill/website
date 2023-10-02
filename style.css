@@ -30,6 +30,9 @@ h3 {
     width: calc(250px * 24);
     animation: scroll 40s linear infinite;
 }
+.slide-track:hover {
+    animation-play-state: paused;
+}
 @keyframes scroll {
     0% {
         transform: translateX(0);
